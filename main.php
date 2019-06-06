@@ -4,7 +4,7 @@ $linecount = 0;
 $arrpara = array();
 	if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['genquotes']))
 	{
-		$handle = fopen("C:/EasyPHP-Devserver-17/eds-www/Sherlock Ipsum/assets/css/texts/temp.txt", "r");
+		$handle = fopen("assets/css/texts/temp.txt", "r");
 		if ($handle) 
 		{
 			while (($line = fgets($handle)) !== false) //read file line by line
@@ -26,7 +26,7 @@ $arrpara = array();
 				$limit = $arrpara[$randomnum+1];//upper limit is next hyphen
 			}
 			
-			$spl = new SplFileObject("C:/EasyPHP-Devserver-17/eds-www/Sherlock Ipsum/assets/css/texts/temp.txt");
+			$spl = new SplFileObject("assets/css/texts/temp.txt");
 			for($x = $arrpara[$randomnum]; $x < $limit; $x++) 
 			{
 				$spl->seek($x); // Zero-based numbering - jump to that line number
