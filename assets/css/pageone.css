@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "Sherlock";
+	src: url("fonts/iamsherlocked.ttf");
+}
+
+body, html {
+    margin: 0;
+    
+    /* The image used */
+    background-image: url("images/bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.centered {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+.bottom-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	padding-right: 10px;
+}
