@@ -127,7 +127,7 @@ input[type="submit"] {
 </div>
 
 <div class="bottom-right">
-<p style="color: gray;">created by: RON004 on FRIDAY the 13TH JULY 2018 copyrights reserved <a href="credits.html"> CREDITS </a></p>
+<p style="color: gray;">created by: Surhud004 on FRIDAY the 13TH JULY 2018 copyrights reserved <a href="credits.html"> CREDITS </a></p>
 </div>
 </body>
 </html>
